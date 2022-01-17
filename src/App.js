@@ -38,12 +38,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome back to the Art Museum</h1>
+      <h1> Welcome back to the Art Museum </h1>
+      <h2> Testing by climbing using React with git!!</h2>
 
       <form onSubmit={ handleSubmit }>
-        <label htmlFor="search">Search for Art:</label>
+        <label htmlFor="search">  Search for Art:  </label>
         <input type="text" id="search" onChange={ handleInput } value={userInput}/>
-        <button>Search</button>
+        <button>🔮 Search 🔮</button>
       </form>
 
       {art.map((artwork) => {
